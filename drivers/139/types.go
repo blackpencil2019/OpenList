@@ -248,6 +248,8 @@ type PersonalFileItem struct {
 	Type       string              `json:"type"`
 	CreatedAt  string              `json:"createdAt"`
 	UpdatedAt  string              `json:"updatedAt"`
+	Hash       string              `json:"contentHash"`
+	HashType   string              `json:"contentHashAlgorithm"`
 	Thumbnails []PersonalThumbnail `json:"thumbnailUrls"`
 }
 
