@@ -579,6 +579,7 @@ func (d *Yun139) personalGetFiles(fileId string) ([]model.Obj, error) {
 						Modified: getPersonalTime(item.UpdatedAt),
 						Ctime:    getPersonalTime(item.CreatedAt),
 						IsFolder: isFolder,
+						HashInfo: utils.NewHashInfo(utils.SHA256, item.Hash),
 					},
 					Thumbnail: model.Thumbnail{Thumbnail: ThumbnailUrl},
 				}
