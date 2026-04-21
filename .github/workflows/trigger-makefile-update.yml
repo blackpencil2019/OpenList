@@ -1,9 +1,9 @@
 name: Trigger OpenWRT Update
 
 on:
-  push:
-    tags:
-      - 'v*'
+  # push:
+  #   tags:
+  #     - 'v*'
   workflow_dispatch:
     inputs:
       tag:
