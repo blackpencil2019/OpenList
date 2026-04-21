@@ -1,10 +1,10 @@
 name: Issue or PR Auto Reply
 
-# on:
-  # issues:
-  #   types: [opened]
-  # pull_request:
-  #   types: [opened]
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
 
 permissions:
   issues: write
