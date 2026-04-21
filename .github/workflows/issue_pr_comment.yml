@@ -1,6 +1,6 @@
 name: Issue or PR Auto Reply
 
-on:
+# on:
   # issues:
   #   types: [opened]
   # pull_request:
